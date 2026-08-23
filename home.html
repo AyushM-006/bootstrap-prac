@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+       <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+        <div class="container">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcl441ovnJbjghd4zA4oyWahvDNMMxCb2HI2g8T2RGA&s=10"
+            class="img-fluid rounded-circle"
+            alt=""
+            height="100px"
+            width="80px"
+          />
+
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0 mx-5">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" href="home.html" aria-current="page"
+                  >Home <span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="soon.html">Upcoming</a>
+              </li>
+            </ul>
+            <form class="d-flex my-2 my-lg-0" action="register.html">
+              <button class="btn btn-success my-2 my-sm-0" type="submit">
+                Register
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Flexbox container for aligning the toasts -->
+      <div
+        aria-live="polite"
+        aria-atomic="true"
+        class="d-flex justify-content-center align-items-center"
+        style="min-height: 200px"
+      >
+        <!-- Then put toasts within -->
+        <div
+          class="toast"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="toast-header">
+            👤
+            <strong class="me-auto">Hello User</strong>
+            <small>just a minute ago</small>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="toast-body">Hello, world! This is a toast message.</div>
+        </div>
+      </div>
+
+      <div id="carouselId" class="carousel slide my-4" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="First slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="1"
+            aria-label="Second slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="2"
+            aria-label="Third slide"
+          ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThIuBFOiVaSWUWwOBbFWyRMyhHz0UvCdHkG9zJWQZ0Yg&s=10"
+              class="w-100 d-block"
+              alt="First slide"
+              height="650px"
+              width="200px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Indian Food</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Perspiciatis laboriosam recusandae provident possimus sequi.
+                Doloremque.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzGzQhvMg5jolrMk5gXUdyrt5kfiudcYKhFfU9oNbjYg&s=10"
+              class="w-100 d-block"
+              alt="Second slide"
+              height="650px"
+              width="200px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Italian Food</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Blanditiis, vero itaque quisquam facere culpa omnis beatae
+                excepturi. Dolor, porro! Consectetur?
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ9dr8iy7cfnhIob7u3tTOPIgVNidcSv87bTyoZMhpyw&s=10"
+              class="w-100 d-block"
+              alt="Third slide"
+              height="650px"
+              width="200px"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Indo-Chinese Food</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur possimus debitis eaque nesciunt recusandae minus
+                dolores alias iure veritatis adipisci.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h1 class = "text-center">Products</h3>
+      <div class="container my-4">
+        <div class="row justify-content-center align-items-center g-2">
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCmfIrQ1JjIiwyuALDpu-Z2vc3sQzTFHEagoDPM0DKpQ&s=10"
+                alt="Title"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Indian Food</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi excepturi nisi maiores voluptatem exercitationem
+                  maxime cupiditate fugiat, dolores totam ut?
+                </p>
+              </div>
+              <!-- Modal trigger button -->
+              <button
+                type="button"
+                class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#modalId"
+              >
+                 More Details...
+              </button>
+
+              <!-- Modal Body -->
+              <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+              <div
+                class="modal fade"
+                id="modalId"
+                tabindex="-1"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                role="dialog"
+                aria-labelledby="modalTitleId"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalTitleId">
+                        Chinese Food
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">Price : 700</div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GSr4m7BEThCREOtl2fZEv6EYYmYyHtFteOAYIGo4LA&s=10"
+                alt="Title"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Italian Food</h4>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Cumque ipsum praesentium minima fugiat nobis cupiditate!
+                </p>
+              </div>
+              <!-- Modal trigger button -->
+              <button
+                type="button"
+                class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#modalId"
+              >
+                More details...
+              </button>
+
+              <!-- Modal Body -->
+              <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+              <div
+                class="modal fade"
+                id="modalId"
+                tabindex="-1"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                role="dialog"
+                aria-labelledby="modalTitleId"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalTitleId">
+                        Italian Food
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">Price : 1000</div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipD0FZxVd5_1JQjhxsI4v6lXD7YK1puxxUArXHVLhIg&s=10"
+                alt="Title"
+              />
+              <div class="card-body">
+                <h4 class="card-title">Indo-Chinese Food</h4>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Expedita necessitatibus, inventore et laboriosam ipsam
+                  excepturi ut voluptatem ea dicta earum. Fugit dolores illo hic
+                  omnis tempore, ipsa nesciunt unde, nulla rem quaerat beatae
+                  quidem expedita aspernatur!
+                </p>
+              </div>
+
+              <!-- Modal trigger button -->
+              <button
+                type="button"
+                class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#modalId"
+              >
+                More Details...
+              </button>
+
+              <!-- Modal Body -->
+              <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+              <div
+                class="modal fade"
+                id="modalId"
+                tabindex="-1"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                role="dialog"
+                aria-labelledby="modalTitleId"
+                aria-hidden="true"
+              >
+                <div
+                  class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                  role="document"
+                >
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalTitleId">Indian Food</h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">Price: 500</div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Optional: Place to the bottom of scripts -->
+              <script>
+                const myModal = new bootstrap.Modal(
+                  document.getElementById("modalId"),
+                  options,
+                );
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav aria-label="Page navigation">
+        <ul
+          class="pagination d-flex justify-content-center "
+        >
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="home.html">1</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="about.html">2</a></li>
+          <li class="page-item">
+            <a class="page-link" href="contact.html">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="product.html" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      
+    </main>
+    <footer class="bg-black text-center text-light p-3">
+      <!-- place footer here -->
+      &copy; All rights reserved by Ayush.
+    </footer>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      const toastEl = document.querySelector(".toast");
+      const toast = new bootstrap.Toast(toastEl);
+      toast.show();
+    </script>
+  </body>
+</html>
